@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="gym.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <style>
+    body {
+      background-color: black;
+      overflow-x: hidden ;
+    }
+    .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  </style>
+  <body>
+    <!-- <nav
+      class="navbar navbar-light fixed-top"
+      style="
+        background-color: transparent;
+        box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+      "
+    >
+      <a class="navbar-brand text-white h1 ml-3" id="down">ZENSON</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars text-white"></i>
+      </button>
+      <div
+        class="collapse navbar-collapse"
+        id="navbarSupportedContent"
+      >
+      <ul class="navbar-nav mr-auto flex-row flex-wrap pr-5">
+        <li class="nav-item px-4">
+          <a class="nav-link text-white text-center" href="#">Home</a>
+        </li>
+        <li class="nav-item px-4">
+          <a class="nav-link text-white text-center" href="#">About Us</a>
+        </li>
+        <li class="nav-item px-4">
+          <a class="nav-link text-white text-center" href="#">Courses</a>
+        </li>
+        <li class="nav-item px-4">
+          <a class="nav-link text-white text-center" href="#">Pricing</a>
+        </li>
+        <li class="nav-item px-4">
+          <a class="nav-link text-white text-center" href="#">Gallery</a>
+        </li>
+        <li class="nav-item px-4">
+          <a class="nav-link text-white text-center" href="#">Blog</a>
+        </li>
+        <li class="nav-item px-4">
+          <a class="nav-link text-white text-center" href="#">Contact</a>
+        </li>
+      </ul>
+        
+      </div>
+      <form class="form-inline" style="padding-right: 55px">
+        <ul class="navbar-nav mr-auto flex-row flex-wrap pr-5">
+        <li class="nav-item px-4">
+          <a class="nav-link text-white text-center" href="#">Home</a>
+        </li>
+        <li class="nav-item px-4">
+          <a class="nav-link text-white text-center" href="#">About Us</a>
+        </li>
+        <li class="nav-item px-4">
+          <a class="nav-link text-white text-center" href="#">Courses</a>
+        </li>
+        <li class="nav-item px-4">
+          <a class="nav-link text-white text-center" href="#">Pricing</a>
+        </li>
+        <li class="nav-item px-4">
+          <a class="nav-link text-white text-center" href="#">Gallery</a>
+        </li>
+        <li class="nav-item px-4">
+          <a class="nav-link text-white text-center" href="#">Blog</a>
+        </li>
+        <li class="nav-item px-4">
+          <a class="nav-link text-white text-center" href="#">Contact</a>
+        </li>
+      </ul>
+      </form>
+    </nav> -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light pb-3 fixed-top"
+      style="
+        background-color:transparent;
+        box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+      "
+      id="change"
+    >
+      <a
+        class="navbar-brand text-white pl-5 fw-bolder"
+        href="#"
+        style="color: white; font-size: 32px"
+        >ZACSON</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <i class="fas fa-bars text-white"></i>
+      </button>
+
+      <div
+        class="collapse navbar-collapse"
+        id="navbarSupportedContent"
+        style="padding-left: 15vw"
+      >
+        <ul class="navbar-nav mr-auto pt-1" id="item">
+          <li class="nav-item mr-5">
+            <a class="nav-link active text-white fs-5" href="gym.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item mr-5">
+            <a class="nav-link text-white fs-5" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item mr-5">
+            <a class="nav-link text-white fs-5" href="courses.html"
+              >Courses<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item mr-5">
+            <a class="nav-link text-white fs-5" href="pricing.html"
+              >Pricing<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item mr-5">
+            <a class="nav-link text-white fs-5" href="gallery.html"
+              >Gallery<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item mr-5">
+            <a class="nav-link text-white fs-5" href="blog.html"
+              >Blog<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item mr-5">
+            <a class="nav-link text-white fs-5" href="contact.html"
+              >Contact<span class="sr-only">(current)</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div>
+      <img
+        src="https://zacson.netlify.app/img/h1_hero.cf8074ad.png"
+        alt=""
+        class="img-fluid"
+        style="padding-top: 82px"
+      />
+      
+    </div>
+    <div class="text-center py-2 center" style="font-size: 8vw">
+      WHAT I OFFER
+    </div>
+    <div class="ml-1">
+        <div class="row pb-2 pl-3 img-fluid" style="width: 100%">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+              <div class="c1">
+                <div class="text-center">
+                  <img
+                    src="https://zacson.netlify.app/img/team1.43848ab1.png"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+              </div>
+              <div class="text-center text-white fw-bolder h4 pt-3 fs-2">
+                BODY BUILDING
+              </div>
+              <p class="text-center text-white fs-5 pt-2">
+                You’ll look at graphs and charts in Task One, how to approach the task
+              </p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+              <div class="c1">
+                <img
+                  src="https://zacson.netlify.app/img/team2.10250644.png"
+                  alt=""
+                  class="img-fluid w-100"
+                />
+              </div>
+              <div class="text-center text-white fw-bolder h4 pt-3 fs-2">
+                MUSCLE BUILDING
+              </div>
+              <p class="text-center text-white fs-5 pt-2">
+                You’ll look at graphs and charts in Task One, how to approach the task
+              </p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+              <div class="c1">
+                <img
+                  src="https://zacson.netlify.app/img/team3.0c60e3c5.png"
+                  alt=""
+                  class="img-fluid w-100"
+                />
+              </div>
+              <div class="text-center text-white fw-bolder h4 pt-3 fs-2">
+                WEIGHT LOSS
+              </div>
+              <p class="text-center text-white fs-5 pt-2">
+                You’ll look at graphs and charts in Task One, how to approach the task
+              </p>
+            </div>
+          </div>
+    </div>
+      <div class="container h-100">
+        <div class="row pt-5 pl-4">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 pt-3">
+            <div class="row img-fluid">
+              <!-- <div
+                class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 mt-3 red"
+                style="background-color: red; width: 70px; border-radius: 50%;height: 85px;"
+              >
+                <div class="text-center py-4">
+                  <i
+                    class="fas fa-home text-white icon"
+                    style="font-size: 35px"
+                  ></i>
+                </div>
+              </div> -->
+              <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3" style="border-radius: 50%; background-color: red; width: 85px; height: 85px;">
+                <div class="text-center">
+                  <i
+                    class="fas fa-home text-white pt-3" style="font-size: 45px;"
+                    
+                  ></i>
+                </div>
+              </div>
+              <div class="col-7 col-sm-7 col-md-7 col-lg-7 col-xl-7">
+                <div class="text-white h3 fw-bolder">Location</div>
+                <div class="text-white">
+                  You’ll look at graphs and charts in Task One, how to approach
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 pt-3">
+            <div class="row">
+              <div
+                class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 mt-2 red"
+                style="border-radius: 50%; background-color: red; width: 85px; height: 85px;"
+              >
+                <div class="text-center ">
+                  <i
+                    class="fas fa-phone text-white"
+                    style="font-size: 45px;padding-top: 20px;"
+                  ></i>
+                </div>
+              </div>
+              <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+                <div class="text-white h3">Phone</div>
+                <div class="text-white">
+                  (90) 277 278 2566 <br />
+                  (78) 267 256 2578
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 pt-3">
+            <div class="row">
+              <div
+                class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 mt-2 red"
+                style="border-radius: 50%; background-color: red; width: 85px; height: 85px;"
+              >
+                <div class="text-center ">
+                  <i
+                    class="fas fa-envelope text-white icon "
+                    style="font-size: 45px;padding-top: 20px;"
+                  ></i>
+                </div>
+              </div>
+              <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+                <div class="text-white h3">Email</div>
+                <div class="text-white">
+                  jacson767@gmail.com <br />
+                  contact56@zacsion.com
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center text-white fw-bolder fs-1 t">ZACSON</div>
+      <div class="text-center pt-5 mx-5">
+        <div class="row justify-content-center pl2">
+          <div class="col-2 col-sm-2 col-md-1 col-lg-1 col-xl-1 text-white ">
+            Home
+          </div>
+          <div class="col-2 col-sm-2 col-md-1 col-lg-1 col-xl-1 text-white mx-1">
+            About
+          </div>
+          <div class="col-3 col-sm-2 col-md-1 col-lg-1 col-xl-1 text-white ">
+            Courses
+          </div>
+          <div class="col-3 col-sm-2 col-md-1 col-lg-1 col-xl-1 text-white ">
+            Pricing
+          </div>
+          <div class="col-2 col-sm-2 col-md-1 col-lg-1 col-xl-1 text-white ">
+            Gallery
+          </div>
+          <div class="col-4 col-sm-2 col-md-1 col-lg-1 col-xl-1 text-white ml-1">
+            Contact
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center pt-3">
+        <div
+          class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 mt-2 red"
+          style="
+            background-color: red;
+            width: 55px;
+            border-radius: 50%;
+            height: 55px;
+          "
+        >
+          <div class="text-center" style="padding-top: 14px;padding-right: 2px;">
+            <i class="fab fa-google text-white" style="font-size: 30px"></i>
+          </div>
+        </div>
+        <div
+          class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 mt-2 mx-5 red"
+          style="
+            background-color: red;
+            width: 55px;
+            border-radius: 50%;
+            height: 55px;
+          "
+        >
+          <div class="text-center" style="padding-top: 15px;padding-left: 1px;">
+            <i class="fab fa-twitter text-white" style="font-size: 30px"></i>
+          </div>
+        </div>
+        <div
+          class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 mt-2 red"
+          style="
+            background-color: red;
+            width: 55px;
+            border-radius: 50%;
+            height: 55px;
+          "
+        >
+          <div class="" style="padding-top: 10.5px;position: relative;right: 1.7px;">
+            <i class="fab fa-facebook text-white" style="font-size: 35px"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="text-white w-100" />
+    <div class="text-white text-center pb-2">
+      Copyright ©2022 All rights reserved | This template is made with by
+      Colorlib
+    </div>
+  </body>
+</html>
